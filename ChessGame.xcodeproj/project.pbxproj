@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCBC0BE318E8EFEF005A528A /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC0BE218E8EFEF005A528A /* MainMenuViewController.m */; };
 		CA3BCFCD1603EA3D00AA650A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3BCFCC1603EA3D00AA650A /* Utils.m */; };
 		CA40D4C315EAC2E50088BB54 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA40D4C215EAC2E50088BB54 /* TileView.m */; };
 		CA63CEAE15FCF7EC004B74CC /* itemBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA63CEAC15FCF7EC004B74CC /* itemBox@2x.png */; };
@@ -55,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCBC0BE118E8EFEF005A528A /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		BCBC0BE218E8EFEF005A528A /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		CA3BCFCB1603EA3D00AA650A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		CA3BCFCC1603EA3D00AA650A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		CA40D4C115EAC2E50088BB54 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
@@ -137,6 +140,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCBC0BE018E8EFE3005A528A /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BCBC0BE118E8EFEF005A528A /* MainMenuViewController.h */,
+				BCBC0BE218E8EFEF005A528A /* MainMenuViewController.m */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
 		CA40D4BF15EAA5830088BB54 /* boardTiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +248,7 @@
 		CACB5BDB15E882EB00C6E50C /* C */ = {
 			isa = PBXGroup;
 			children = (
+				BCBC0BE018E8EFE3005A528A /* MainMenu */,
 				CA6376DA15FBC18300FE1934 /* TextFlash */,
 				CACB5BE615E88D4400C6E50C /* Shop */,
 				CACB5BE515E88D3E00C6E50C /* Evolve */,
@@ -440,6 +453,7 @@
 				CACB5BD515E876B200C6E50C /* whalecombat.xcdatamodeld in Sources */,
 				CACB5BE115E8832200C6E50C /* CombatViewController.m in Sources */,
 				CACB5BE915E88E2C00C6E50C /* EnemiesTableView.m in Sources */,
+				BCBC0BE318E8EFEF005A528A /* MainMenuViewController.m in Sources */,
 				CACB5BEC15E88E4600C6E50C /* EnemiesTableCell.m in Sources */,
 				CACB5C0815E9471500C6E50C /* CombatPlayer.m in Sources */,
 				CACB5C0B15E9472100C6E50C /* BoardPeice.m in Sources */,
