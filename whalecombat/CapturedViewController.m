@@ -32,6 +32,7 @@
     [super viewDidLoad];
     blackCount = 0;
     whitecount = 0;
+    self.view.backgroundColor = [UIColor lightGrayColor];
     // Do any additional setup after loading the view from its nib.
 }
 

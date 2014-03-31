@@ -74,15 +74,15 @@
 		CA8CA8CE160F742E00214B39 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick.png; sourceTree = "<group>"; };
 		CAB8F5BB15E9825D0031A32F /* ADice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADice.h; sourceTree = "<group>"; };
 		CAB8F5BC15E9825D0031A32F /* ADice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADice.m; sourceTree = "<group>"; };
-		CACB5BBB15E876B100C6E50C /* whalecombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whalecombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACB5BBB15E876B100C6E50C /* ChessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACB5BBF15E876B100C6E50C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CACB5BC115E876B100C6E50C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CACB5BC315E876B100C6E50C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CACB5BC515E876B100C6E50C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CACB5BC915E876B100C6E50C /* whalecombat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whalecombat-Info.plist"; sourceTree = "<group>"; };
+		CACB5BC915E876B100C6E50C /* ChessGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChessGame-Info.plist"; sourceTree = "<group>"; };
 		CACB5BCB15E876B100C6E50C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CACB5BCD15E876B100C6E50C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CACB5BCF15E876B100C6E50C /* whalecombat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "whalecombat-Prefix.pch"; sourceTree = "<group>"; };
+		CACB5BCF15E876B100C6E50C /* ChessGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessGame-Prefix.pch"; sourceTree = "<group>"; };
 		CACB5BD015E876B100C6E50C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CACB5BD115E876B100C6E50C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CACB5BD415E876B200C6E50C /* whalecombat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = whalecombat.xcdatamodel; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				CA834F9E15EC4CCB00288075 /* QuartzCore.framework */,
-				CACB5BC715E876B100C6E50C /* whalecombat */,
+				CACB5BC715E876B100C6E50C /* ChessGame */,
 				CACB5BBE15E876B100C6E50C /* Frameworks */,
 				CACB5BBC15E876B100C6E50C /* Products */,
 			);
@@ -187,7 +187,7 @@
 		CACB5BBC15E876B100C6E50C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CACB5BBB15E876B100C6E50C /* whalecombat.app */,
+				CACB5BBB15E876B100C6E50C /* ChessGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CACB5BC715E876B100C6E50C /* whalecombat */ = {
+		CACB5BC715E876B100C6E50C /* ChessGame */ = {
 			isa = PBXGroup;
 			children = (
 				CACB5C0115E92F6D00C6E50C /* A */,
@@ -218,16 +218,17 @@
 				CA3BCFCB1603EA3D00AA650A /* Utils.h */,
 				CA3BCFCC1603EA3D00AA650A /* Utils.m */,
 			);
+			name = ChessGame;
 			path = whalecombat;
 			sourceTree = "<group>";
 		};
 		CACB5BC815E876B100C6E50C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CACB5BC915E876B100C6E50C /* whalecombat-Info.plist */,
+				CACB5BC915E876B100C6E50C /* ChessGame-Info.plist */,
 				CACB5BCA15E876B100C6E50C /* InfoPlist.strings */,
 				CACB5BCD15E876B100C6E50C /* main.m */,
-				CACB5BCF15E876B100C6E50C /* whalecombat-Prefix.pch */,
+				CACB5BCF15E876B100C6E50C /* ChessGame-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -354,9 +355,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CACB5BBA15E876B100C6E50C /* whalecombat */ = {
+		CACB5BBA15E876B100C6E50C /* ChessGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CACB5BD815E876B200C6E50C /* Build configuration list for PBXNativeTarget "whalecombat" */;
+			buildConfigurationList = CACB5BD815E876B200C6E50C /* Build configuration list for PBXNativeTarget "ChessGame" */;
 			buildPhases = (
 				CACB5BB715E876B100C6E50C /* Sources */,
 				CACB5BB815E876B100C6E50C /* Frameworks */,
@@ -366,9 +367,9 @@
 			);
 			dependencies = (
 			);
-			name = whalecombat;
+			name = ChessGame;
 			productName = whalecombat;
-			productReference = CACB5BBB15E876B100C6E50C /* whalecombat.app */;
+			productReference = CACB5BBB15E876B100C6E50C /* ChessGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -380,7 +381,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "anthony lamantia";
 			};
-			buildConfigurationList = CACB5BB515E876B100C6E50C /* Build configuration list for PBXProject "whalecombat" */;
+			buildConfigurationList = CACB5BB515E876B100C6E50C /* Build configuration list for PBXProject "ChessGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -392,7 +393,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CACB5BBA15E876B100C6E50C /* whalecombat */,
+				CACB5BBA15E876B100C6E50C /* ChessGame */,
 			);
 		};
 /* End PBXProject section */
@@ -524,10 +525,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "whalecombat/whalecombat-Prefix.pch";
-				INFOPLIST_FILE = "whalecombat/whalecombat-Info.plist";
+				GCC_PREFIX_HEADER = "whalecombat/ChessGame-Prefix.pch";
+				INFOPLIST_FILE = "whalecombat/ChessGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChessGame;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -536,10 +537,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "whalecombat/whalecombat-Prefix.pch";
-				INFOPLIST_FILE = "whalecombat/whalecombat-Info.plist";
+				GCC_PREFIX_HEADER = "whalecombat/ChessGame-Prefix.pch";
+				INFOPLIST_FILE = "whalecombat/ChessGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ChessGame;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -547,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CACB5BB515E876B100C6E50C /* Build configuration list for PBXProject "whalecombat" */ = {
+		CACB5BB515E876B100C6E50C /* Build configuration list for PBXProject "ChessGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CACB5BD615E876B200C6E50C /* Debug */,
@@ -556,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CACB5BD815E876B200C6E50C /* Build configuration list for PBXNativeTarget "whalecombat" */ = {
+		CACB5BD815E876B200C6E50C /* Build configuration list for PBXNativeTarget "ChessGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CACB5BD915E876B200C6E50C /* Debug */,

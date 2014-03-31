@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2C6D6F6A-BAB9-4F83-93D4-C60F896B2CFC</string>
+	<string>D1469395-D475-4F34-A94D-67F5FD620DA1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>whalecombat</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6372D7C2-BB3A-4848-A903-75A1CFA664F1</key>
-		<string>ssh://github.com/anthonylamantia/ChessGame</string>
+		<key>157DB3CC-8F45-46C9-9E9D-8CBB43DAD88D</key>
+		<string>ssh://github.com/w4ffles/chessgame.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>whalecombat.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6372D7C2-BB3A-4848-A903-75A1CFA664F1</key>
+		<key>157DB3CC-8F45-46C9-9E9D-8CBB43DAD88D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/anthonylamantia/ChessGame</string>
+	<string>ssh://github.com/w4ffles/chessgame.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6372D7C2-BB3A-4848-A903-75A1CFA664F1</string>
+	<string>157DB3CC-8F45-46C9-9E9D-8CBB43DAD88D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6372D7C2-BB3A-4848-A903-75A1CFA664F1</string>
+			<string>157DB3CC-8F45-46C9-9E9D-8CBB43DAD88D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ChessGame</string>
+			<string>chessgame</string>
 		</dict>
 	</array>
 </dict>

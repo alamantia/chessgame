@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CACB5BBA15E876B100C6E50C"
                BuildableName = "whalecombat.app"
-               BlueprintName = "whalecombat"
-               ReferencedContainer = "container:whalecombat.xcodeproj">
+               BlueprintName = "ChessGame"
+               ReferencedContainer = "container:ChessGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CACB5BBA15E876B100C6E50C"
             BuildableName = "whalecombat.app"
-            BlueprintName = "whalecombat"
-            ReferencedContainer = "container:whalecombat.xcodeproj">
+            BlueprintName = "ChessGame"
+            ReferencedContainer = "container:ChessGame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CACB5BBA15E876B100C6E50C"
             BuildableName = "whalecombat.app"
-            BlueprintName = "whalecombat"
-            ReferencedContainer = "container:whalecombat.xcodeproj">
+            BlueprintName = "ChessGame"
+            ReferencedContainer = "container:ChessGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CACB5BBA15E876B100C6E50C"
             BuildableName = "whalecombat.app"
-            BlueprintName = "whalecombat"
-            ReferencedContainer = "container:whalecombat.xcodeproj">
+            BlueprintName = "ChessGame"
+            ReferencedContainer = "container:ChessGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
