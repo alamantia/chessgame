@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3BCFCD1603EA3D00AA650A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3BCFCC1603EA3D00AA650A /* Utils.m */; };
+		CA40D4C315EAC2E50088BB54 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA40D4C215EAC2E50088BB54 /* TileView.m */; };
+		CA63CEAE15FCF7EC004B74CC /* itemBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA63CEAC15FCF7EC004B74CC /* itemBox@2x.png */; };
+		CA63CEAF15FCF7EC004B74CC /* itemBox.png in Resources */ = {isa = PBXBuildFile; fileRef = CA63CEAD15FCF7EC004B74CC /* itemBox.png */; };
+		CA63CF1416017046004B74CC /* CapturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA63CF1216017046004B74CC /* CapturedViewController.m */; };
+		CA63CF1516017046004B74CC /* CapturedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA63CF1316017046004B74CC /* CapturedViewController.xib */; };
+		CA63CF1A16029AC7004B74CC /* ItemDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CA63CF1816029AC7004B74CC /* ItemDialog.m */; };
+		CA63CF1B16029AC7004B74CC /* ItemDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA63CF1916029AC7004B74CC /* ItemDialog.xib */; };
+		CA834F9F15EC4CCB00288075 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA834F9E15EC4CCB00288075 /* QuartzCore.framework */; };
+		CA834FA815EC6FB200288075 /* CombatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA834FA715EC6FB200288075 /* CombatItem.m */; };
+		CA8CA8CC160F742000214B39 /* brick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8CA8CB160F742000214B39 /* brick@2x.png */; };
+		CA8CA8CF160F742E00214B39 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8CA8CE160F742E00214B39 /* brick.png */; };
+		CAB8F5BD15E9825D0031A32F /* ADice.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB8F5BC15E9825D0031A32F /* ADice.m */; };
+		CACB5BC015E876B100C6E50C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB5BBF15E876B100C6E50C /* UIKit.framework */; };
+		CACB5BC215E876B100C6E50C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB5BC115E876B100C6E50C /* Foundation.framework */; };
+		CACB5BC415E876B100C6E50C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB5BC315E876B100C6E50C /* CoreGraphics.framework */; };
+		CACB5BC615E876B100C6E50C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB5BC515E876B100C6E50C /* CoreData.framework */; };
+		CACB5BCC15E876B100C6E50C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CACB5BCA15E876B100C6E50C /* InfoPlist.strings */; };
+		CACB5BCE15E876B100C6E50C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5BCD15E876B100C6E50C /* main.m */; };
+		CACB5BD215E876B100C6E50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5BD115E876B100C6E50C /* AppDelegate.m */; };
+		CACB5BD515E876B200C6E50C /* whalecombat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CACB5BD315E876B200C6E50C /* whalecombat.xcdatamodeld */; };
+		CACB5BE115E8832200C6E50C /* CombatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5BDF15E8832200C6E50C /* CombatViewController.m */; };
+		CACB5BE215E8832200C6E50C /* CombatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACB5BE015E8832200C6E50C /* CombatViewController.xib */; };
+		CACB5BE915E88E2C00C6E50C /* EnemiesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5BE815E88E2C00C6E50C /* EnemiesTableView.m */; };
+		CACB5BEC15E88E4600C6E50C /* EnemiesTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5BEB15E88E4600C6E50C /* EnemiesTableCell.m */; };
+		CACB5C0315E92F7900C6E50C /* emulogic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CACB5C0215E92F7900C6E50C /* emulogic.ttf */; };
+		CACB5C0515E9417400C6E50C /* EnemiesTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACB5C0415E9417300C6E50C /* EnemiesTableCell.xib */; };
+		CACB5C0815E9471500C6E50C /* CombatPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5C0715E9471500C6E50C /* CombatPlayer.m */; };
+		CACB5C0B15E9472100C6E50C /* BoardPeice.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5C0A15E9472100C6E50C /* BoardPeice.m */; };
+		CACB5C0E15E94BE200C6E50C /* AVector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB5C0D15E94BE200C6E50C /* AVector2D.m */; };
+		CACBD1891603F00F008025CC /* ItemDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = CACBD1881603F00F008025CC /* ItemDetail.m */; };
+		CACDC0D415F19B27006A0675 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CACDC0D315F19B27006A0675 /* UIColor-Expanded.m */; };
+		CACDC15915F53912006A0675 /* chess_piece_2_black_bishop.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC14D15F53912006A0675 /* chess_piece_2_black_bishop.png */; };
+		CACDC15A15F53912006A0675 /* chess_piece_2_black_queen.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC14E15F53912006A0675 /* chess_piece_2_black_queen.png */; };
+		CACDC15B15F53912006A0675 /* chess_piece_2_black_knight.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC14F15F53912006A0675 /* chess_piece_2_black_knight.png */; };
+		CACDC15C15F53912006A0675 /* chess_piece_2_black_pawn.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15015F53912006A0675 /* chess_piece_2_black_pawn.png */; };
+		CACDC15D15F53912006A0675 /* chess_piece_2_black_king.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15115F53912006A0675 /* chess_piece_2_black_king.png */; };
+		CACDC15E15F53912006A0675 /* chess_piece_2_black_rook.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15215F53912006A0675 /* chess_piece_2_black_rook.png */; };
+		CACDC15F15F53912006A0675 /* chess_piece_2_white_bishop.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15315F53912006A0675 /* chess_piece_2_white_bishop.png */; };
+		CACDC16015F53912006A0675 /* chess_piece_2_white_queen.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15415F53912006A0675 /* chess_piece_2_white_queen.png */; };
+		CACDC16115F53912006A0675 /* chess_piece_2_white_knight.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15515F53912006A0675 /* chess_piece_2_white_knight.png */; };
+		CACDC16215F53912006A0675 /* chess_piece_2_white_pawn.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15615F53912006A0675 /* chess_piece_2_white_pawn.png */; };
+		CACDC16315F53912006A0675 /* chess_piece_2_white_king.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15715F53912006A0675 /* chess_piece_2_white_king.png */; };
+		CACDC16415F53912006A0675 /* chess_piece_2_white_rook.png in Resources */ = {isa = PBXBuildFile; fileRef = CACDC15815F53912006A0675 /* chess_piece_2_white_rook.png */; };
+		CAECE28515E9E635002E9DF5 /* CodePage.m in Sources */ = {isa = PBXBuildFile; fileRef = CAECE28415E9E635002E9DF5 /* CodePage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA3BCFCB1603EA3D00AA650A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		CA3BCFCC1603EA3D00AA650A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		CA40D4C115EAC2E50088BB54 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		CA40D4C215EAC2E50088BB54 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
+		CA63CEAC15FCF7EC004B74CC /* itemBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "itemBox@2x.png"; sourceTree = "<group>"; };
+		CA63CEAD15FCF7EC004B74CC /* itemBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itemBox.png; sourceTree = "<group>"; };
+		CA63CF1116017046004B74CC /* CapturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturedViewController.h; sourceTree = "<group>"; };
+		CA63CF1216017046004B74CC /* CapturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturedViewController.m; sourceTree = "<group>"; };
+		CA63CF1316017046004B74CC /* CapturedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CapturedViewController.xib; sourceTree = "<group>"; };
+		CA63CF1716029AC7004B74CC /* ItemDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDialog.h; sourceTree = "<group>"; };
+		CA63CF1816029AC7004B74CC /* ItemDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDialog.m; sourceTree = "<group>"; };
+		CA63CF1916029AC7004B74CC /* ItemDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDialog.xib; sourceTree = "<group>"; };
+		CA834F9E15EC4CCB00288075 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA834FA615EC6FB200288075 /* CombatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombatItem.h; sourceTree = "<group>"; };
+		CA834FA715EC6FB200288075 /* CombatItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombatItem.m; sourceTree = "<group>"; };
+		CA8CA8CB160F742000214B39 /* brick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brick@2x.png"; sourceTree = "<group>"; };
+		CA8CA8CE160F742E00214B39 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick.png; sourceTree = "<group>"; };
+		CAB8F5BB15E9825D0031A32F /* ADice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADice.h; sourceTree = "<group>"; };
+		CAB8F5BC15E9825D0031A32F /* ADice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADice.m; sourceTree = "<group>"; };
+		CACB5BBB15E876B100C6E50C /* whalecombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whalecombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACB5BBF15E876B100C6E50C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CACB5BC115E876B100C6E50C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CACB5BC315E876B100C6E50C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CACB5BC515E876B100C6E50C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CACB5BC915E876B100C6E50C /* whalecombat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whalecombat-Info.plist"; sourceTree = "<group>"; };
+		CACB5BCB15E876B100C6E50C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CACB5BCD15E876B100C6E50C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CACB5BCF15E876B100C6E50C /* whalecombat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "whalecombat-Prefix.pch"; sourceTree = "<group>"; };
+		CACB5BD015E876B100C6E50C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CACB5BD115E876B100C6E50C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CACB5BD415E876B200C6E50C /* whalecombat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = whalecombat.xcdatamodel; sourceTree = "<group>"; };
+		CACB5BDE15E8832200C6E50C /* CombatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombatViewController.h; sourceTree = "<group>"; };
+		CACB5BDF15E8832200C6E50C /* CombatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombatViewController.m; sourceTree = "<group>"; };
+		CACB5BE015E8832200C6E50C /* CombatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombatViewController.xib; sourceTree = "<group>"; };
+		CACB5BE715E88E2C00C6E50C /* EnemiesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemiesTableView.h; sourceTree = "<group>"; };
+		CACB5BE815E88E2C00C6E50C /* EnemiesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemiesTableView.m; sourceTree = "<group>"; };
+		CACB5BEA15E88E4600C6E50C /* EnemiesTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemiesTableCell.h; sourceTree = "<group>"; };
+		CACB5BEB15E88E4600C6E50C /* EnemiesTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemiesTableCell.m; sourceTree = "<group>"; };
+		CACB5C0215E92F7900C6E50C /* emulogic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = emulogic.ttf; sourceTree = "<group>"; };
+		CACB5C0415E9417300C6E50C /* EnemiesTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnemiesTableCell.xib; sourceTree = "<group>"; };
+		CACB5C0615E9471500C6E50C /* CombatPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombatPlayer.h; sourceTree = "<group>"; };
+		CACB5C0715E9471500C6E50C /* CombatPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombatPlayer.m; sourceTree = "<group>"; };
+		CACB5C0915E9472000C6E50C /* BoardPeice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardPeice.h; sourceTree = "<group>"; };
+		CACB5C0A15E9472100C6E50C /* BoardPeice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardPeice.m; sourceTree = "<group>"; };
+		CACB5C0C15E94BE200C6E50C /* AVector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVector2D.h; sourceTree = "<group>"; };
+		CACB5C0D15E94BE200C6E50C /* AVector2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVector2D.m; sourceTree = "<group>"; };
+		CACBD1871603F00F008025CC /* ItemDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetail.h; sourceTree = "<group>"; };
+		CACBD1881603F00F008025CC /* ItemDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetail.m; sourceTree = "<group>"; };
+		CACDC0D215F19B27006A0675 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		CACDC0D315F19B27006A0675 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		CACDC14D15F53912006A0675 /* chess_piece_2_black_bishop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_black_bishop.png; sourceTree = "<group>"; };
+		CACDC14E15F53912006A0675 /* chess_piece_2_black_queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_black_queen.png; sourceTree = "<group>"; };
+		CACDC14F15F53912006A0675 /* chess_piece_2_black_knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_black_knight.png; sourceTree = "<group>"; };
+		CACDC15015F53912006A0675 /* chess_piece_2_black_pawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_black_pawn.png; sourceTree = "<group>"; };
+		CACDC15115F53912006A0675 /* chess_piece_2_black_king.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_black_king.png; sourceTree = "<group>"; };
+		CACDC15215F53912006A0675 /* chess_piece_2_black_rook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_black_rook.png; sourceTree = "<group>"; };
+		CACDC15315F53912006A0675 /* chess_piece_2_white_bishop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_white_bishop.png; sourceTree = "<group>"; };
+		CACDC15415F53912006A0675 /* chess_piece_2_white_queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_white_queen.png; sourceTree = "<group>"; };
+		CACDC15515F53912006A0675 /* chess_piece_2_white_knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_white_knight.png; sourceTree = "<group>"; };
+		CACDC15615F53912006A0675 /* chess_piece_2_white_pawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_white_pawn.png; sourceTree = "<group>"; };
+		CACDC15715F53912006A0675 /* chess_piece_2_white_king.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_white_king.png; sourceTree = "<group>"; };
+		CACDC15815F53912006A0675 /* chess_piece_2_white_rook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_piece_2_white_rook.png; sourceTree = "<group>"; };
+		CAECE28315E9E635002E9DF5 /* CodePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePage.h; sourceTree = "<group>"; };
+		CAECE28415E9E635002E9DF5 /* CodePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACB5BB815E876B100C6E50C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA834F9F15EC4CCB00288075 /* QuartzCore.framework in Frameworks */,
+				CACB5BC015E876B100C6E50C /* UIKit.framework in Frameworks */,
+				CACB5BC215E876B100C6E50C /* Foundation.framework in Frameworks */,
+				CACB5BC415E876B100C6E50C /* CoreGraphics.framework in Frameworks */,
+				CACB5BC615E876B100C6E50C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA40D4BF15EAA5830088BB54 /* boardTiles */ = {
+			isa = PBXGroup;
+			children = (
+				CA40D4C115EAC2E50088BB54 /* TileView.h */,
+				CA40D4C215EAC2E50088BB54 /* TileView.m */,
+			);
+			name = boardTiles;
+			sourceTree = "<group>";
+		};
+		CA6376DA15FBC18300FE1934 /* TextFlash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TextFlash;
+			sourceTree = "<group>";
+		};
+		CA63CEAA15FC7B33004B74CC /* ai */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ai;
+			sourceTree = "<group>";
+		};
+		CA63CF161602979C004B74CC /* itemEffects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = itemEffects;
+			sourceTree = "<group>";
+		};
+		CA834FA515EC60D500288075 /* boardSkills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = boardSkills;
+			sourceTree = "<group>";
+		};
+		CACB5BB015E876B100C6E50C = {
+			isa = PBXGroup;
+			children = (
+				CA834F9E15EC4CCB00288075 /* QuartzCore.framework */,
+				CACB5BC715E876B100C6E50C /* whalecombat */,
+				CACB5BBE15E876B100C6E50C /* Frameworks */,
+				CACB5BBC15E876B100C6E50C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACB5BBC15E876B100C6E50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACB5BBB15E876B100C6E50C /* whalecombat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACB5BBE15E876B100C6E50C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACB5BBF15E876B100C6E50C /* UIKit.framework */,
+				CACB5BC115E876B100C6E50C /* Foundation.framework */,
+				CACB5BC315E876B100C6E50C /* CoreGraphics.framework */,
+				CACB5BC515E876B100C6E50C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CACB5BC715E876B100C6E50C /* whalecombat */ = {
+			isa = PBXGroup;
+			children = (
+				CACB5C0115E92F6D00C6E50C /* A */,
+				CACB5BE315E8832B00C6E50C /* U */,
+				CACB5BDD15E8830400C6E50C /* V */,
+				CACB5BDC15E8830000C6E50C /* M */,
+				CACB5BDB15E882EB00C6E50C /* C */,
+				CACB5BD015E876B100C6E50C /* AppDelegate.h */,
+				CACB5BD115E876B100C6E50C /* AppDelegate.m */,
+				CACB5BD315E876B200C6E50C /* whalecombat.xcdatamodeld */,
+				CACB5BC815E876B100C6E50C /* Supporting Files */,
+				CA3BCFCB1603EA3D00AA650A /* Utils.h */,
+				CA3BCFCC1603EA3D00AA650A /* Utils.m */,
+			);
+			path = whalecombat;
+			sourceTree = "<group>";
+		};
+		CACB5BC815E876B100C6E50C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACB5BC915E876B100C6E50C /* whalecombat-Info.plist */,
+				CACB5BCA15E876B100C6E50C /* InfoPlist.strings */,
+				CACB5BCD15E876B100C6E50C /* main.m */,
+				CACB5BCF15E876B100C6E50C /* whalecombat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CACB5BDB15E882EB00C6E50C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CA6376DA15FBC18300FE1934 /* TextFlash */,
+				CACB5BE615E88D4400C6E50C /* Shop */,
+				CACB5BE515E88D3E00C6E50C /* Evolve */,
+				CACB5BE415E88D3600C6E50C /* Combat */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		CACB5BDC15E8830000C6E50C /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		CACB5BDD15E8830400C6E50C /* V */ = {
+			isa = PBXGroup;
+			children = (
+				CAECE28315E9E635002E9DF5 /* CodePage.h */,
+				CAECE28415E9E635002E9DF5 /* CodePage.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		CACB5BE315E8832B00C6E50C /* U */ = {
+			isa = PBXGroup;
+			children = (
+				CACDC0D215F19B27006A0675 /* UIColor-Expanded.h */,
+				CACDC0D315F19B27006A0675 /* UIColor-Expanded.m */,
+				CACB5C0C15E94BE200C6E50C /* AVector2D.h */,
+				CACB5C0D15E94BE200C6E50C /* AVector2D.m */,
+				CAB8F5BB15E9825D0031A32F /* ADice.h */,
+				CAB8F5BC15E9825D0031A32F /* ADice.m */,
+			);
+			name = U;
+			sourceTree = "<group>";
+		};
+		CACB5BE415E88D3600C6E50C /* Combat */ = {
+			isa = PBXGroup;
+			children = (
+				CA63CF1716029AC7004B74CC /* ItemDialog.h */,
+				CA63CF1816029AC7004B74CC /* ItemDialog.m */,
+				CA63CF1916029AC7004B74CC /* ItemDialog.xib */,
+				CA63CF161602979C004B74CC /* itemEffects */,
+				CA63CEAA15FC7B33004B74CC /* ai */,
+				CA834FA515EC60D500288075 /* boardSkills */,
+				CA40D4BF15EAA5830088BB54 /* boardTiles */,
+				CACB5BDE15E8832200C6E50C /* CombatViewController.h */,
+				CACB5BDF15E8832200C6E50C /* CombatViewController.m */,
+				CACB5BE015E8832200C6E50C /* CombatViewController.xib */,
+				CACB5BE715E88E2C00C6E50C /* EnemiesTableView.h */,
+				CACB5BE815E88E2C00C6E50C /* EnemiesTableView.m */,
+				CACB5BEA15E88E4600C6E50C /* EnemiesTableCell.h */,
+				CACB5BEB15E88E4600C6E50C /* EnemiesTableCell.m */,
+				CACB5C0415E9417300C6E50C /* EnemiesTableCell.xib */,
+				CACB5C0615E9471500C6E50C /* CombatPlayer.h */,
+				CACB5C0715E9471500C6E50C /* CombatPlayer.m */,
+				CACB5C0915E9472000C6E50C /* BoardPeice.h */,
+				CACB5C0A15E9472100C6E50C /* BoardPeice.m */,
+				CA834FA615EC6FB200288075 /* CombatItem.h */,
+				CA834FA715EC6FB200288075 /* CombatItem.m */,
+				CA63CF1116017046004B74CC /* CapturedViewController.h */,
+				CA63CF1216017046004B74CC /* CapturedViewController.m */,
+				CA63CF1316017046004B74CC /* CapturedViewController.xib */,
+				CACBD1871603F00F008025CC /* ItemDetail.h */,
+				CACBD1881603F00F008025CC /* ItemDetail.m */,
+			);
+			name = Combat;
+			sourceTree = "<group>";
+		};
+		CACB5BE515E88D3E00C6E50C /* Evolve */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Evolve;
+			sourceTree = "<group>";
+		};
+		CACB5BE615E88D4400C6E50C /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+		CACB5C0115E92F6D00C6E50C /* A */ = {
+			isa = PBXGroup;
+			children = (
+				CA8CA8CE160F742E00214B39 /* brick.png */,
+				CA8CA8CB160F742000214B39 /* brick@2x.png */,
+				CACDC14C15F53912006A0675 /* chess */,
+				CACB5C0215E92F7900C6E50C /* emulogic.ttf */,
+			);
+			name = A;
+			sourceTree = "<group>";
+		};
+		CACDC14C15F53912006A0675 /* chess */ = {
+			isa = PBXGroup;
+			children = (
+				CA63CEAC15FCF7EC004B74CC /* itemBox@2x.png */,
+				CA63CEAD15FCF7EC004B74CC /* itemBox.png */,
+				CACDC14D15F53912006A0675 /* chess_piece_2_black_bishop.png */,
+				CACDC14E15F53912006A0675 /* chess_piece_2_black_queen.png */,
+				CACDC14F15F53912006A0675 /* chess_piece_2_black_knight.png */,
+				CACDC15015F53912006A0675 /* chess_piece_2_black_pawn.png */,
+				CACDC15115F53912006A0675 /* chess_piece_2_black_king.png */,
+				CACDC15215F53912006A0675 /* chess_piece_2_black_rook.png */,
+				CACDC15315F53912006A0675 /* chess_piece_2_white_bishop.png */,
+				CACDC15415F53912006A0675 /* chess_piece_2_white_queen.png */,
+				CACDC15515F53912006A0675 /* chess_piece_2_white_knight.png */,
+				CACDC15615F53912006A0675 /* chess_piece_2_white_pawn.png */,
+				CACDC15715F53912006A0675 /* chess_piece_2_white_king.png */,
+				CACDC15815F53912006A0675 /* chess_piece_2_white_rook.png */,
+			);
+			path = chess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACB5BBA15E876B100C6E50C /* whalecombat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACB5BD815E876B200C6E50C /* Build configuration list for PBXNativeTarget "whalecombat" */;
+			buildPhases = (
+				CACB5BB715E876B100C6E50C /* Sources */,
+				CACB5BB815E876B100C6E50C /* Frameworks */,
+				CACB5BB915E876B100C6E50C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = whalecombat;
+			productName = whalecombat;
+			productReference = CACB5BBB15E876B100C6E50C /* whalecombat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACB5BB215E876B100C6E50C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "anthony lamantia";
+			};
+			buildConfigurationList = CACB5BB515E876B100C6E50C /* Build configuration list for PBXProject "whalecombat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CACB5BB015E876B100C6E50C;
+			productRefGroup = CACB5BBC15E876B100C6E50C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACB5BBA15E876B100C6E50C /* whalecombat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACB5BB915E876B100C6E50C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACB5BCC15E876B100C6E50C /* InfoPlist.strings in Resources */,
+				CACB5BE215E8832200C6E50C /* CombatViewController.xib in Resources */,
+				CACB5C0315E92F7900C6E50C /* emulogic.ttf in Resources */,
+				CACB5C0515E9417400C6E50C /* EnemiesTableCell.xib in Resources */,
+				CACDC15915F53912006A0675 /* chess_piece_2_black_bishop.png in Resources */,
+				CACDC15A15F53912006A0675 /* chess_piece_2_black_queen.png in Resources */,
+				CACDC15B15F53912006A0675 /* chess_piece_2_black_knight.png in Resources */,
+				CACDC15C15F53912006A0675 /* chess_piece_2_black_pawn.png in Resources */,
+				CACDC15D15F53912006A0675 /* chess_piece_2_black_king.png in Resources */,
+				CACDC15E15F53912006A0675 /* chess_piece_2_black_rook.png in Resources */,
+				CACDC15F15F53912006A0675 /* chess_piece_2_white_bishop.png in Resources */,
+				CACDC16015F53912006A0675 /* chess_piece_2_white_queen.png in Resources */,
+				CACDC16115F53912006A0675 /* chess_piece_2_white_knight.png in Resources */,
+				CACDC16215F53912006A0675 /* chess_piece_2_white_pawn.png in Resources */,
+				CACDC16315F53912006A0675 /* chess_piece_2_white_king.png in Resources */,
+				CACDC16415F53912006A0675 /* chess_piece_2_white_rook.png in Resources */,
+				CA63CEAE15FCF7EC004B74CC /* itemBox@2x.png in Resources */,
+				CA63CEAF15FCF7EC004B74CC /* itemBox.png in Resources */,
+				CA63CF1516017046004B74CC /* CapturedViewController.xib in Resources */,
+				CA63CF1B16029AC7004B74CC /* ItemDialog.xib in Resources */,
+				CA8CA8CC160F742000214B39 /* brick@2x.png in Resources */,
+				CA8CA8CF160F742E00214B39 /* brick.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACB5BB715E876B100C6E50C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACB5BCE15E876B100C6E50C /* main.m in Sources */,
+				CACB5BD215E876B100C6E50C /* AppDelegate.m in Sources */,
+				CACB5BD515E876B200C6E50C /* whalecombat.xcdatamodeld in Sources */,
+				CACB5BE115E8832200C6E50C /* CombatViewController.m in Sources */,
+				CACB5BE915E88E2C00C6E50C /* EnemiesTableView.m in Sources */,
+				CACB5BEC15E88E4600C6E50C /* EnemiesTableCell.m in Sources */,
+				CACB5C0815E9471500C6E50C /* CombatPlayer.m in Sources */,
+				CACB5C0B15E9472100C6E50C /* BoardPeice.m in Sources */,
+				CACB5C0E15E94BE200C6E50C /* AVector2D.m in Sources */,
+				CAB8F5BD15E9825D0031A32F /* ADice.m in Sources */,
+				CAECE28515E9E635002E9DF5 /* CodePage.m in Sources */,
+				CA40D4C315EAC2E50088BB54 /* TileView.m in Sources */,
+				CA834FA815EC6FB200288075 /* CombatItem.m in Sources */,
+				CACDC0D415F19B27006A0675 /* UIColor-Expanded.m in Sources */,
+				CA63CF1416017046004B74CC /* CapturedViewController.m in Sources */,
+				CA63CF1A16029AC7004B74CC /* ItemDialog.m in Sources */,
+				CA3BCFCD1603EA3D00AA650A /* Utils.m in Sources */,
+				CACBD1891603F00F008025CC /* ItemDetail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CACB5BCA15E876B100C6E50C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACB5BCB15E876B100C6E50C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACB5BD615E876B200C6E50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CACB5BD715E876B200C6E50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACB5BD915E876B200C6E50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "whalecombat/whalecombat-Prefix.pch";
+				INFOPLIST_FILE = "whalecombat/whalecombat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CACB5BDA15E876B200C6E50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "whalecombat/whalecombat-Prefix.pch";
+				INFOPLIST_FILE = "whalecombat/whalecombat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACB5BB515E876B100C6E50C /* Build configuration list for PBXProject "whalecombat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACB5BD615E876B200C6E50C /* Debug */,
+				CACB5BD715E876B200C6E50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACB5BD815E876B200C6E50C /* Build configuration list for PBXNativeTarget "whalecombat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACB5BD915E876B200C6E50C /* Debug */,
+				CACB5BDA15E876B200C6E50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CACB5BD315E876B200C6E50C /* whalecombat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CACB5BD415E876B200C6E50C /* whalecombat.xcdatamodel */,
+			);
+			currentVersion = CACB5BD415E876B200C6E50C /* whalecombat.xcdatamodel */;
+			path = whalecombat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CACB5BB215E876B100C6E50C /* Project object */;
+}
