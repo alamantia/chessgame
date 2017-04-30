@@ -1,3 +1,6 @@
+Old iOS Chess game system making public to free up the # of private repos I can use.
+
+
 This was just a random chess project I hacked on for a while, it was originally going to be a weird chess variant with items, and is in need of some refactoring but it works well, sadly I never got around to writing the AI or refactoring it.. I originally called the project WhaleCombat and I'm not quite sure why.
 
 
